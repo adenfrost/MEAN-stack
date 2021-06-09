@@ -1,0 +1,36 @@
+*{
+    font-family: 'Reggae One', cursive;
+    margin:0;
+    padding:0;
+}
+body>h1{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: wavy;
+    color: blueviolet;
+}
+form{
+    width:50%;
+    margin-left:37vw;
+    margin-top: 1vw;
+}
+input[type="text"],input[type="number"],input[type="datetime-local"]{
+    width:50%;
+    border-radius: 20px;
+    /* border-color: white; */
+    padding:5px 5px 5px 5px;
+    outline:none;
+}
+#submit{
+    border-radius: 30px;
+    margin-left:22%;
+    padding: 10px 10px 10px 10px;
+    background-color:sandybrown;
+    border-color:white;
+    outline:none;
+}
+#div1a,#div1b,#div2a,#div2b,#div3a,#div3b{
+    display:none;
+    color:rgb(233, 79, 18);
+}

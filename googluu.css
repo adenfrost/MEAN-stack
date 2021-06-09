@@ -1,0 +1,90 @@
+body{
+    font-family: 'Reggae One', cursive;
+    
+    /* background-image: url('https://i.redd.it/01sk42ne9rk61.jpg'); */
+}
+.header_font{
+    font-size:100px;
+}
+input[type="text"]{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    text-align:center;
+    border-radius:30px;
+    border-width:1px;
+    height:50px;
+    border-color:lightgrey;
+    outline:none;
+}
+#search_buttons
+{
+    text-align:center;
+}
+#submit_button2{
+    border-radius:30px;
+    border-width:1px;
+    background-color:lightgrey;
+    border-color:lightgrey;
+    outline:none;
+}
+#submit_button1{
+    border-radius:30px;
+    border-width:1px;
+    background-color:lightgrey;
+    border-color:lightgrey;
+    outline:none;
+}
+.btn{
+    border-radius:30px;
+    border-width:1px;
+    background-color:lightgrey;
+    border-color:lightgrey;
+    outline:none;
+}
+@media screen and (max-width:576px){
+    body{
+        font-size:50%;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:30px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        font-size:25px;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:50px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    body{
+        font-size:30px;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:50px;
+    }
+}
+@media screen and (min-width:993px){
+    body{
+        font-size:25px;
+    }
+    #nuub{
+        text-align:right;
+    }
+    #search{
+        height:50px;
+    }
+    h1{
+        font-size:100px;
+    }
+}

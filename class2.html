@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!---->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>class2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <table border="18" style="border-color: white;">
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input type="text" name = "fullname" id ="fullname" placeholder="please input your name"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="email" name="email" id ="email" placeholder="please input your email"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone:
+            </td>
+            <td>
+                <input type="text" name = "phone" id ="phone" placeholder="please input your phone number"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Which course you want:
+            </td>
+            <td>
+                <select name="course" id="course">
+                    <option>Select Course</option>
+                    <option>HTML</option>
+                    <option>PHP</option>
+                    <option>CSS</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name = "gender" id="gender1" value ="M">
+                <label for="gender1">Male</label>
+                <input type="radio" name = "gender" id="gender2" value ="F">
+                <label for="gender2">Female</label>
+                <input type="radio" name = "gender" id="gender3" value ="R">
+                <label for="gender3">Rather not say</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea id="address1" name="address1"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="submit" id ="submmit">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

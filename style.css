@@ -1,0 +1,16 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    background-color:white;
+    color:red;
+    font-family: 'Pattaya', sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp6050894.jpg');
+}
+h1
+{
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-decoration-color:darkcyan;
+}

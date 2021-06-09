@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-7</title>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assignment7css.css">
+</head>
+<body>
+    <h1>Expense Details</h1>
+    <form id="form" onsubmit="event.preventDefault(),validate()">
+        <div class="container-fluid">
+            <div id="div1a">
+                Name cannot be empty;
+            </div>
+            <div id="div1b">
+                Name is Invalid!!;
+            </div>
+            <div>
+                <input type="text" id="Name" placeholder="Enter the Name of product">
+            </div><br>
+            <div id="div2a">
+                price cannot be empty;
+            </div>
+            <div id="div2b">
+                price is Invalid!!;
+            </div>
+            <div>
+                <input type="text" id="Amount" placeholder="Enter the price of product">
+            </div><br>
+            <div id="div3a">
+                date cannot be empty;
+            </div>
+            <div id="div3b">
+                date is Invalid!!;
+            </div>
+            <div>
+                <input type="datetime-local" id="DateTime">
+            </div><br>
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+    <script src="assignment7js.js"></script>
+</html>

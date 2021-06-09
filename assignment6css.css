@@ -1,0 +1,28 @@
+*{
+    font-family: 'Reggae One', cursive;
+    margin:0;
+}
+form{
+    width:50%;
+    margin-left:27vw;
+    text-align: center;
+}
+.container-fluid{
+    background:goldenrod;
+    
+}
+input[type="text"],input[type="number"]{
+    text-align:center;
+}
+#Name,#Id,#Designation,#Department,#BasicSalary,#BirthYear,#JoinYear{
+    width:70%;
+    border-radius: 30px;
+    border-color:goldenrod;
+    outline:none;
+}
+#submit1{
+    color:blueviolet;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border-color:blueviolet;
+}
